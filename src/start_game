@@ -1,0 +1,5 @@
+from src.poker import Poker
+
+session = Poker()
+print(session.roll())
+session.confirmation(str(input("aaaaaa")))
